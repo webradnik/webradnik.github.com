@@ -1,54 +1,267 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Web Radnik by webradnik</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/main.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Web Radnik | Web development and Search Engine Optimization</title>
+        <meta name="description" content="Web Radnik is a company specialized for web development and search engine optimization.">
+        <meta name="viewport" content="width=device-width">
 
-  </head>
-  <body>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
 
-      <header>
-        <h1>Web Radnik</h1>
-        <p>Web Radnik Page</p>
-      </header>
-
-      <div id="banner">
-        <span id="logo"></span>
-
-        <a href="https://github.com/webradnik" class="button fork"><strong>View On GitHub</strong></a>
-      </div><!-- end banner -->
-
-    <div class="wrapper">
-      <nav>
-        <ul></ul>
-      </nav>
-      <section>
-        <p>Welcome to Web Radnik Page</p>
-      </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></small></p>
-      </footer>
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Web Radnik</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav pull-right" id="top-nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
     </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-35011390-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
 
-  </body>
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron" id="home">
+      <div class="container">
+        <h1>Web Radnik <small>Web development and Search Engine Optimization</small></h1>
+        <p>Hire us and we will work to make a web solution which works for you!</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <section class="row section">
+        <div class="col-lg-4">
+          <h2>Build your idea</h2>
+        <p>You may have a great product in mind, perhaps a new web business , but doesn't have the technical know-how to make it come into reality. That's when we come in. <b>Web Radnik</b> can bring about your brilliant idea and be your technical partner.</p>
+        </div>
+        <div class="col-lg-4">
+          <h2>Outsourcing</h2>
+          <p>You can't be everything. A good business sense doesn't always go hand in hand with being a techie. But your company needs someone...Why hire , when you can OUTSOURCE your technical requirement to us. We know technology.</p>
+       </div>
+        <div class="col-lg-4">
+          <h2>Open Source</h2>
+          <p>We only work with open-source software. Why? Because open source is the future, and setting knowledge free makes the world a better place. Software should be free to use, modify, and distribute so that people all over the world, regardless of economic status, can have access to technology and a better future.</p>
+        </div>
+      </section>
+      <hr>
+
+      <section class="row section" id="about">
+        <div class="col-lg-12">
+
+        <h2>About <small>Who we are</small></h2>
+          <p>We are a small team of IT enthusiasts based in Southern Europe. Together, we have experience in web development and design.</p>
+          
+          <p>Before starting <b>Web Radnik</b>, we all worked for large IT agencies. We’ve found that working as a 
+            small, close-knit team is not only a better working environment for us, but for our clients 
+            too. As a small team, we can work together more efficiently and projects get completed 
+            quickly. Without the bureaucracy of a large agency to get in the way, we get to exercise 
+            more creativity in our work – which means bolder, better solutions for our clients.</p>
+
+          <p>Most of our clients are small to medium businesses like ourselves. So, we understand 
+            their unique needs. We know that the projects we work on, whether it is 
+            a custom WordPress site or a Facebook app, are integral to our clients’ success. We 
+            can’t succeed unless you succeed!</p>
+
+          <p>Unlike a lot of our peers, we only accept a limited number of projects at once. That 
+            means every project gets priority treatment through the planning to the testing phase.</p>
+
+          <p>We pride ourselves on customer service, lightening speed, high quality, and unbridled 
+            passion for what we do!</p>
+
+          <br>
+          <p class="well"><b>Ready to get started?</b><br>
+          We are ready to go when you are! Tell us your project idea and we can start working 
+          together on a solution which fits your unique business needs.</p>
+
+        </div>
+      </section> <!-- end about -->
+      <hr>
+
+      <section class="row section" id="services">
+        <div class="col-lg-12">
+        <h2>Services <small>What we do</small></h2>
+        <h3>WordPress Development</h3>
+          <p>WordPress is often the best choice of platform for small business websites: It is user-
+          friendly, adaptable, and numerous plugins are already available. Yet, WordPress 
+          websites which are built on existing templates have a tendency to look generic and boring. </p>
+
+          <p><b><i>You need a website which is as unique as your business!</i></b></p>
+
+          <p>At <b>Web Radnik</b>, we can create a WordPress website for you which meets your unique business 
+            needs. Whether you want to customize an existing WordPress theme, have one built 
+            from scratch, or need a custom WordPress widget, we can help.</p>
+
+          <p>A good WordPress website requires much more than just an attractive design. 
+            Websites must be built on a technical foundation which makes them usable for both 
+            visitors and search engines. </p>
+
+           <p>Some of our services include:</p>
+             <ul>
+              <li>WordPress design and development</li>
+              <li>WordPress plugin and widget development or modification</li>
+              <li>WordPress website updates and web service integrations</li>
+              <li>Improving WordPress usability and security</li>
+              <li>WordPress Multi-User development</li>
+              <li>WordPress SEO</li>
+              <li>WordPress data migration</li>
+             </ul>
+            
+
+          <p>When you hire us, you get much more than a pretty website. We make sure your 
+          WordPress website is developed to meet the highest industry standards. You get a 
+          SEO-friendly website, efficient code, security, and cross-browser compatibility. Most 
+          importantly, your website will be easy to manage which means you don’t have to worry 
+          about long-term costs associated with adding or editing content to your site. </p>
+
+          <br>
+          <p class="well"><b>Got a project in mind?</b><br>
+          Contact us today and find out how we can make your idea a reality!</p>
+
+      
+        <h3>Search Engine Optimization</h3>
+
+        <p>The era of manipulating loopholes in search algorithms may be over, but SEO is far 
+          from dead! Websites must be optimized so search engines can efficiently crawl and 
+          understand them.</p>
+
+        <p>Whether your website is in the development phase or already established, we at 
+          <b>Web Radnik</b> can help you improve your optimization. Every website is unique and requires 
+          a different approach to SEO, but here are some of the optimization services you can 
+          expect from us:</p>
+          <ul>
+            <li>Search engine indexability analysis </li>
+            <li>Website architecture review</li>
+            <li>Duplicate content check</li>
+            <li>Page load time optimization</li>
+            <li>HTML/XML Sitemap review</li>
+            <li>Robots.txt review</li>
+            <li>Robots meta tags review</li>
+            <li>Alt Text and Anchor Tag audit</li>
+            <li>Website usability review</li>
+            <li>JavaScript and Flash use</li>
+            <li>URL review </li>
+            <li>W3C CSS and HTML validation</li>
+            <li>Rich snippet use review</li>
+          </ul>
+        
+
+        <p>These SEO elements make up the foundation of a highly-performing website. We will 
+          look at your website through the eyes of the Google spiders to make sure that there 
+          aren’t any technical elements which are holding you back from success on the SERPs!</p>
+
+        <br>
+        <p class="well"><b>Ready to get started?</b><br>
+        We are ready to go when you are! Contact us today and find out how to get your 
+        website optimized for search.</p>
+
+        </div>
+      </section> <!-- end services -->
+      <hr>
+
+      <section class="row section" id="contact">
+        <div class="col-lg-12">
+        <h2>Contact <small>Get in touch</small></h2>
+        <div class="col-lg-4">
+          <form class="well" id="contactForm" action="#" method="post">
+            <div class="control-group">
+              <label class="control-label" for="name">Your Name</label>
+              <div class="controls">
+                <input type="text" class="col-lg-4" placeholder="What's your name?" name="name" id="name">
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label" for="email">Your Email</label>
+              <div class="controls">
+                <input type="text" class="col-lg-4" placeholder="How can we contact you?" name="email" id="email">
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label" for="web">Your Web</label>
+              <div class="controls">
+                <input type="text" class="col-lg-4" placeholder="Do you have a website?" name="web" id="web">
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label" for="comments">Message</label>
+              <div class="controls">
+                <textarea class="col-lg-4" rows="4" name="comments" id="comments"></textarea>
+              </div>
+            </div>
+            <!-- send mail configuration -->
+            <input type="hidden" value="mailto:webradnik@gmail.com" name="to" id="to">
+            <input type="hidden" value="Message from Web Radnik site" name="subject" id="subject">
+            <!-- ENDS send mail configuration -->
+            
+            <p><input type="button" value="Send Message" name="submit" id="submit" class="btn btn-info"></p>
+            <div id="error" class="alert alert-error" style="display: none; "></div>
+            <div id="sent-form-msg" class="alert alert-success" style="display: none; ">Your message was sent!</div>
+          </form>
+          </div><!-- end col 4 -->
+
+          <div class="col-lg-4">
+            <p>Contact info</p>
+            <ul class="address-block">
+              <li>
+                <i class="icon-mobile-phone"></i> +381 69 3019-918
+              </li>
+              <li>
+                <i class="icon-skype"></i> <a href="skype:m.manojlovic?chat">m.manojlovic</a>
+              </li>
+              <li>
+                <i class="icon-twitter"></i> <a href="http://twitter.com/webradnik">webradnik</a>
+              </li>
+            </ul>
+          </div><!-- end col 4 -->
+
+        </div> <!-- end col 12 -->
+      </section> <!-- end contact -->
+      <hr>
+
+      <footer>
+        <p class="text-center">&copy; <b>Web Radnik</b> 2013. All Rights Reserved.</p>
+      </footer>
+    </div> <!-- /container -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <script>
+            var _gaq=[['_setAccount','UA-35011390-1'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src='//www.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    </body>
 </html>
